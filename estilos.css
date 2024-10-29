@@ -1,0 +1,213 @@
+:root{
+    --color-blanco: #ffffff; 
+    --color-negro: #000000; 
+}
+
+/*Estilos para el body general */
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+
+}
+
+/* Estilos generales del header */
+header{
+    background-color: rgb(32, 32, 32);
+    padding-top: 10px;
+    color: rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+
+
+/* Estilos concretos del header */
+
+header h1{
+    margin: 5;
+    font-size: 3rem;
+}
+
+nav{
+    margin-top: 20px;
+    background-color: rgb(161, 161, 160);
+    height: 45px;
+    padding: 0;
+    
+}
+
+nav ul{
+    font-size: 1.3rem;
+    list-style-type:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 22px;
+    margin-top: 8px;
+}
+
+nav ul li a{
+    color: var(--color-blanco);
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+/*Estilos para el main*/
+
+h2 {
+    color: var(--color-negro); 
+    border-bottom: 2px solid #ddd; 
+    padding-bottom: 10px; 
+    margin-bottom: 20px; 
+    margin-top: -0.5%;
+}
+
+
+
+/*estilos para los recuadros*/
+.cuadros{
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 900px;
+    padding: 30px;
+    font-size: 1.2rem;
+}
+
+.cuadro-izq {
+    padding: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 40px 0;
+    max-width: 500px;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+
+.contenedor{
+    display: flex;
+    gap: 20;
+}
+
+.cuadro-der{
+    padding: 50px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    display: inline-block;
+    max-width: 600px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+.funcionamiento{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+/*fotos*/
+
+.messi{
+    width: 500px;
+    margin-left: 20px;
+    height: 450px;
+    margin-top: 150px;
+}
+
+.fotos{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4%;
+}
+
+
+hr{
+    margin: 5%;
+}
+
+/*estilos para las careristicas*/
+
+.cuadrosCaracteristicas {
+    max-width: 700px;
+    margin: 20px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cuadrosCaracteristicas h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+details {
+    background: rgb(246, 246, 244);
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+details summary {
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: #636363;
+}
+
+details[open] {
+    background: #f1efef;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+details[open] summary {
+    color: #017cff;
+}
+
+details p {
+    margin: 10px 0 0;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    font-size: 0.95rem;
+    color: #3f3e3e;
+}
+
+/*video*/
+
+.video{
+    width: 600px;
+    height: 400px;
+    margin-left: 430px;
+    margin-bottom: 70px;
+    border-radius: 10px;
+}
+
+
+/*Footer*/
+
+footer{
+    background-color: var(--color-negro);
+    color: var(--color-blanco);
+    padding: 20px;
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+footer a{
+    color: var(--color-blanco);
+}
+
+
